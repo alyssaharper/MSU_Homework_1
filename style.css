@@ -3,27 +3,28 @@
     padding: 0;
     margin: 0;
 }
-
+/* changes background color to Hex code #d6dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* sets a font family, adds a background to the heater, changes font to white, and adds a padding */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Makes everything in the header one line but blocked out and sets a font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Changes the "seo" in the header to a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Adds padding to the top of the header nav and a right margin, puts all fo the links to the right, assigns a font family, and size */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Removes the bullets from the list */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Makes the links inline block with the header and applies a left margin */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Sets the font color to white and removes the underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets the font size to 16px */
 p {
     font-size: 16px;
 }
-
+/* Adds an image to the section in the center. Makes it cover the entire width and height. Adds a margin to the bottom of the image and sets the height for 800px, and width as 100% of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Makes the image align left with a right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Makes the image align right with a left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Puts all of the content to display in an inline block, at a width of 75%. Also applies a margin to the left */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Sets a font family, and floats the content to the right. Sets the height at 100% of the area between the hero and footer with a width of 20%. Assigns it a background color and gives it 20px of padding. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,23 +86,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Adds a bottom margin of 32px and sets the font color to white */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Adds a bottom margin of 10px and aligns the text to the center */
 .benefit-lead, .benefit-brand, .benefit-cost, h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Displays the images as a block with a margin of 10px and a max width of 150px */
 .benefit-lead, .benefit-brand, .benefit-cost, img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Adds a margin to the bottom, padding, and sets a height of 300px. Also adds a font family, background color of blue and font color of white. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,23 +112,23 @@ p {
     color: #ffffff;
 }
 
-
+/* Sets the image to a max height of 200px */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing, img {
     max-height: 200px;
 }
-
+/* Adds a margin to the bottom and sets a font size */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing, h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Adds a padding of 30px, sets a font family, aligns the text to the center, and does not allow floating elements to either side of it */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Sets a font size of 20px */
 .footer h2 {
     font-size: 20px;
 }
